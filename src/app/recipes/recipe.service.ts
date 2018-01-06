@@ -8,7 +8,6 @@ export class RecipeService {
 
     constructor(private slServie: ShoppingListService) { }
 
-    recipeSelected = new EventEmitter<Recipe>();
     private recipes: Recipe[] = [
         new Recipe('Omlet',
             'Egg Omlet with Cheese',
